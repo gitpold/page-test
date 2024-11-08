@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test2
-        run: echo "Test: ${{ github.event.issue }}"
+        run: echo "Test:"

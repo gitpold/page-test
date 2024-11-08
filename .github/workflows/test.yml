@@ -3,10 +3,10 @@ name: Test
 on:
   issues:
     types: [assigned]
-
+    
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: test
-        run: echo "Test: ${{ github.event }}"
+      - name: test2
+        run: echo "Test: ${{ github.event.issue }}"
